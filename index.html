@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="de">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,6 +13,7 @@
             margin: 0;
             padding: 0;
         }
+
         header {
             background: url('hero-image.jpg') no-repeat center center;
             background-size: cover;
@@ -21,15 +23,22 @@
             justify-content: center;
             align-items: center;
             text-align: center;
+            padding: 0 20px;
         }
+
         header h1 {
             font-size: 3rem;
             margin: 0;
             color: #f4b400;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
         }
+
         header p {
             font-size: 1.5rem;
+            margin-top: 1rem;
+            max-width: 600px;
         }
+
         .cta {
             background-color: #f4b400;
             color: #1a1a1a;
@@ -39,68 +48,97 @@
             font-weight: bold;
             text-decoration: none;
             border-radius: 5px;
+            transition: background-color 0.3s;
         }
+
+        .cta:hover {
+            background-color: #e0a300;
+        }
+
         section {
             padding: 4rem 2rem;
+            max-width: 800px;
+            margin: auto;
         }
+
         .pain-point {
             background-color: #333;
             padding: 2rem;
+            border-radius: 8px;
+            margin-bottom: 2rem;
         }
-        .pain-point h2, .solution h2 {
+
+        .pain-point h2,
+        .solution h2 {
             text-align: center;
             color: #f4b400;
+            margin-bottom: 1rem;
         }
+
         .solution {
             background-color: #222;
+            border-radius: 8px;
+            padding: 2rem;
+            margin-bottom: 2rem;
         }
+
         .testimonials {
             background-color: #444;
             color: #ccc;
+            border-radius: 8px;
+            padding: 2rem;
         }
+
         .testimonials p {
             font-size: 1.2rem;
+            margin: 0.5rem 0;
         }
+
         footer {
             background-color: #000;
             text-align: center;
             padding: 2rem;
+            margin-top: 2rem;
         }
     </style>
 </head>
+
 <body>
 
-<header>
-    <h1>Befreie dein wahres Potenzial</h1>
-    <p>Motivationsprobleme? Unser E-Book wird deinen Mindset auf das nächste Level bringen.</p>
-    <a href="#buy" class="cta">Jetzt E-Book holen!</a>
-</header>
+    <header>
+        <h1>Befreie dein wahres Potenzial</h1>
+        <p>Motivationsprobleme? Unser E-Book wird deinen Mindset auf das nächste Level bringen und dir helfen, die Kontrolle über dein Leben zurückzugewinnen!</p>
+        <a href="#buy" class="cta">Jetzt E-Book holen!</a>
+    </header>
 
-<section class="pain-point">
-    <h2>Hast du genug von deiner ständigen Unzufriedenheit?</h2>
-    <p>Du kämpfst mit der täglichen Motivation? Du verlierst den Fokus und steckst fest?</p>
-    <p>Es ist an der Zeit, deine Frustrationen zu beenden und dein Potenzial zu entfalten.</p>
-</section>
+    <section class="pain-point">
+        <h2>Hast du genug von deiner ständigen Unzufriedenheit?</h2>
+        <p>Du kämpfst mit der täglichen Motivation und fühlst dich oft festgefahren? Die ständige Prokrastination und die Angst, deine Ziele nicht zu erreichen, hindern dich daran, das Beste aus dir herauszuholen. Es ist an der Zeit, die negativen Gedanken zu beenden und deine Träume in die Realität umzusetzen!</p>
+    </section>
 
-<section class="solution">
-    <h2>Die Lösung: Unser E-Book</h2>
-    <p>Verändere deine Gedanken, verändere dein Leben!</p>
-    <ul>
-        <li>Steigere deine Disziplin und setze Ziele um.</li>
-        <li>Baue nachhaltig Motivation auf.</li>
-        <li>Entwickle eine Siegermentalität.</li>
-    </ul>
-</section>
+    <section class="solution">
+        <h2>Die Lösung: Unser E-Book</h2>
+        <p>Unser E-Book ist der Schlüssel, um deine Denkweise zu transformieren. Es bietet dir:</p>
+        <ul>
+            <li>Strategien zur Steigerung deiner Disziplin und Umsetzung von Zielen.</li>
+            <li>Methoden zur nachhaltigen Motivation und Selbstverpflichtung.</li>
+            <li>Übungen zur Entwicklung einer Siegermentalität und positiven Denkens.</li>
+        </ul>
+        <p>Mit jeder Seite wirst du lernen, wie du Hindernisse überwindest und deinen persönlichen Erfolg definierst.</p>
+    </section>
 
-<section class="testimonials">
-    <h2>Erfolgsgeschichten</h2>
-    <p>„Dieses Buch hat mein Leben verändert. Endlich habe ich die Motivation gefunden, die ich brauche!“ – Anna</p>
-</section>
+    <section class="testimonials">
+        <h2>Erfolgsgeschichten</h2>
+        <p>„Dieses Buch hat mein Leben verändert. Endlich habe ich die Motivation gefunden, die ich brauche!“ – Anna</p>
+        <p>„Die Techniken haben mir geholfen, meine Ängste zu überwinden und klare Ziele zu setzen. Ich empfehle es jedem!“ – Max</p>
+        <p>„Ich war skeptisch, aber die Tipps waren sofort umsetzbar. Ich fühle mich jetzt viel motivierter und fokussierter!“ – Lisa</p>
+    </section>
 
-<footer>
-    <p>Du hast Fragen? Lass uns reden!</p>
-    <p>&copy; 2024 Dein Name</p>
-</footer>
+    <footer>
+        <p>Du hast Fragen? Lass uns reden! Kontaktiere uns über unsere Social Media Kanäle.</p>
+        <p>&copy; 2024 Dein Name</p>
+    </footer>
 
 </body>
+
 </html>
